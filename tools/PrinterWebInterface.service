@@ -1,0 +1,12 @@
+[Unit]
+After=cups.service
+
+[Service]
+Type=simple
+Restart=always
+User=user
+WorkingDirectory=/home/user/PrinterWebInterface
+ExecStart=/home/user/PrinterWebInterface/PrinterWebInterface --urls http://0.0.0.0:5001 /Printer="HL1110"
+
+[Install]
+WantedBy=multi-user.target
