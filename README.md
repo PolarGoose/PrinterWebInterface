@@ -2,7 +2,10 @@ This application is my hobby project and solves a very specific task. It is not 
 
 # Description
 Web interface for my printer "Brother HL1110" built using [ROCK Pi X](https://rockpi.org/#rockpix) board and ASP .NET Core.
+## Screenshot of the interface
 ![Screenshot](doc/WebInterfaceScreenshot.png)
+## Picture of the printer
+![Screenshot](doc/PrinterPhoto.png)
 
 # Configure of Ubuntu 20.10
 ```
